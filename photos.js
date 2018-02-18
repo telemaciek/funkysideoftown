@@ -679,7 +679,16 @@ var photos = [
   {
     "title": "44 and others",
     "photos": [
-      "44_and_others1_o",
+      "44_and_others1_o"
+    ],
+    "type": "h",
+    "caption": null,
+    "location": "Berlin, Germany",
+    "date": "06/05/2008"
+  },
+  {
+    "title": "44 and others",
+    "photos": [
       "44_and_others2_o",
       "44_and_others3_o"
     ],
