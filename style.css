@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
-  background-color: rgba(1, 0,0,0.1)
 }
 
 html, body {
@@ -12,6 +11,7 @@ body {
   font-family: "Playfair Display", Georgia, serif;
   font-size: 15px;
   color: #444;
+  padding-top: 32px;
 }
 
 @media screen and (max-width: 900px) {
@@ -54,13 +54,17 @@ i {
 }
 
 .post {
-  height: 100vh;
   margin-bottom: 40px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto 50px;
+  grid-template-rows: calc(100vh - 50px) 50px;
   grid-template-areas: "content" "caption";
   grid-gap: 10px;
+}
+@media (min-width: 1000px) {
+  .post {
+    height: 100vh;
+  }
 }
 
 .post-content {
@@ -69,6 +73,8 @@ i {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "a" ;
+  grid-gap: 5px;
+  padding: 5px;
 }
 
 .post-content div {
@@ -104,6 +110,22 @@ i {
 .h2 .post-content div:nth-child(2) {
   justify-content: flex-start;
 }
+@media (max-width: 600px) {
+  .h2 .post-content,
+  .v2 .post-content {
+    grid-template-rows: auto auto;
+    grid-template-columns: auto;
+    grid-template-areas: "a" "b" ;
+  }
+  .v2 .post-content div:nth-child(1),
+  .h2 .post-content div:nth-child(1) {
+    justify-content: center;
+  }
+  .v2 .post-content div:nth-child(2),
+  .h2 .post-content div:nth-child(2) {
+    justify-content: center;
+  }
+}
 
 .h3 .post-content,
 .v3 .post-content {
@@ -122,6 +144,26 @@ i {
 .v3 .post-content div:nth-child(3),
 .h3 .post-content div:nth-child(3) {
   justify-content: flex-start;
+}
+@media (max-width: 600px) {
+  .h3 .post-content,
+  .v3 .post-content {
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: "a" "b" "c" ;
+  }
+  .v3 .post-content div:nth-child(1),
+  .h3 .post-content div:nth-child(1) {
+    justify-content: center;
+  }
+  .v3 .post-content div:nth-child(2),
+  .h3 .post-content div:nth-child(2) {
+    justify-content: center;
+  }
+  .v3 .post-content div:nth-child(3),
+  .h3 .post-content div:nth-child(3) {
+    justify-content: center;
+  }
 }
 
 .h4 .post-content,
@@ -153,7 +195,6 @@ i {
 .post img {
   max-height: 100%;
   max-width: 100%;
-  padding: 10px;
 }
 
 .about {
