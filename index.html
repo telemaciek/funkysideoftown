@@ -10,23 +10,76 @@
 </head>
 
 <body>
-  <h1 class="logo">
-    Funky Side of Town
-  </h1>
+  <header class="main-nav">
+    <h1>
+      <a href="index.html">
+        Funky Side of Town
+      </a>
+    </h1>
+    <nav>
+      <a href="about.html">
+        Best Of
+      </a> •
+      <a href="about.html">
+        Archive
+      </a> •
+      <a href="about.html">
+        About
+      </a>
+    </nav>
+  </header>
 
-  <nav class="navigation">
-    <a href="about.html">
-      Best of
-    </a> —
-    <a href="about.html">
-      Archive
-    </a> —
-    <a href="about.html">
-      About
-    </a>
-  </nav>
 
-  <div id="photosContainer"></div>
+  <div class="photos">
+    <article class="post h1">
+      <div class="post-content">
+        <div>
+          <img src="papa.jpg" />
+        </div>
+      </div>
+      <div class="post-caption">
+        <p>
+          LOREM IPSUM
+        </p>
+      </div>
+    </article>
+    <article class="post h2">
+      <div class="post-content">
+        <div>
+          <img src="papa.jpg" />
+        </div>
+        <div>
+          <img src="papa.jpg" />
+        </div>
+      </div>
+      <div class="post-caption">
+        <p>
+          LOREM IPSUM
+        </p>
+      </div>
+    </article>
+    <article class="post h3">
+      <div class="post-content">
+        <div>
+          <img src="papa.jpg" />
+        </div>
+        <div>
+          <img src="papa.jpg" />
+        </div>
+        <div>
+          <img src="papa.jpg" />
+        </div>
+      </div>
+      <div class="post-caption">
+        <p>
+          LOREM IPSUM
+        </p>
+      </div>
+    </article>
+  </div>
+
+
+  <div id="photosContainer" class="photos"></div>
 
   <script src='photos.js'></script>
   <script src='script.js'></script>

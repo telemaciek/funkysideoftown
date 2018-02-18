@@ -8,32 +8,24 @@
   function printPost(obj) {
     var postContainer = document.createElement("article");
     photosContainer.appendChild(postContainer);
-    postContainer.className = obj.type + obj.photos.length;
-
+    postContainer.className = "post " + obj.type + obj.photos.length;
     postContainer.id = "id_" + obj.photos[0];
 
-    switch (obj.type) {
-      case 'vhh':
-        var firstPhotoContainer = document.createElement("div");
-        postContainer.appendChild(firstPhotoContainer);
-        printPhoto(firstPhotoContainer, obj.title, obj.photos[0]);
-        var secondPhotoContainer = document.createElement("div");
-        postContainer.appendChild(secondPhotoContainer);
-        printPhoto(secondPhotoContainer, obj.title, obj.photos[1]);
-        printPhoto(secondPhotoContainer, obj.title, obj.photos[2]);
-        break;
-      default:
-        obj.photos.forEach(printPhoto.bind(null, postContainer, obj.title));
-        break;
-    }
+    var photoContainer = document.createElement("div");
+    photoContainer.className = 'post-content';
+    postContainer.appendChild(photoContainer);
+    obj.photos.forEach(printPhoto.bind(null, photoContainer, obj.title));
 
-    // printCaption(obj.title + " — " + obj.location, postContainer);
-    printCaption(obj.location, postContainer);
+
+    printCaption(obj.title + " — " + obj.location, postContainer);
+    // printCaption(obj.location, postContainer);
   };
 
   function printPhoto(container, title, photo) {
+    var imageContainer = document.createElement("div");
     var imgElement = document.createElement("img");
-    container.appendChild(imgElement);
+    imageContainer.appendChild(imgElement);
+    container.appendChild(imageContainer);
     imgElement.setAttribute("src", photosPath + photo + '.jpg');
     imgElement.alt = title;
   };
@@ -41,7 +33,7 @@
   function printCaption(caption, container) {
     var descriptionContainer = document.createElement("p");
     container.appendChild(descriptionContainer);
-    descriptionContainer.className = "caption";
+    descriptionContainer.className = "post-caption";
     descriptionContainer.innerHTML = caption;
   };
 
