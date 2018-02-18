@@ -1,7 +1,7 @@
 "use strict";
-(function() {
+(function () {
 
-  var photosPath = "../photos/"
+  var photosPath = "photos/"
 
   var photosContainer = document.getElementById("photosContainer");
 
@@ -27,13 +27,14 @@
         break;
     }
 
-    printCaption(obj.title + " — " + obj.location, postContainer);
+    // printCaption(obj.title + " — " + obj.location, postContainer);
+    printCaption(obj.location, postContainer);
   };
 
   function printPhoto(container, title, photo) {
     var imgElement = document.createElement("img");
     container.appendChild(imgElement);
-    imgElement.src = photosPath + photo + '.jpg';
+    imgElement.setAttribute("src", photosPath + photo + '.jpg');
     imgElement.alt = title;
   };
 
@@ -45,13 +46,12 @@
   };
 
   photos
-  .sort(function(current, next) {
-    var currentTimestamp = (new Date(current.date)).getTime();
-    var nextTimestamp = (new Date(next.date)).getTime();
-    return nextTimestamp-currentTimestamp;
-  })
-  .forEach(function(obj) {
-    printPost(obj);
-  });
-
+    .sort(function (current, next) {
+      var currentTimestamp = (new Date(current.date)).getTime();
+      var nextTimestamp = (new Date(next.date)).getTime();
+      return nextTimestamp - currentTimestamp;
+    })
+    .forEach(function (obj) {
+      printPost(obj);
+    });
 }());
