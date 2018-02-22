@@ -1322,11 +1322,11 @@ var photos = [
   {
     "title": "Post-tourist",
     "photos": [
+      "F1060018",
       "F1060016",
-      "F1060017",
-      "F1060018"
+      "F1060017"
     ],
-    "type": "h",
+    "type": "vhh",
     "caption": null,
     "location": "Florence, Italy",
     "date": "08/08/2007"

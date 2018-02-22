@@ -17,8 +17,8 @@
     obj.photos.forEach(printPhoto.bind(null, photoContainer, obj.title));
 
 
-    printCaption(obj.title + " — " + obj.location, postContainer);
-    // printCaption(obj.location, postContainer);
+    // printCaption(obj.title + " — " + obj.location, postContainer);
+    printCaption(obj.location, postContainer);
   };
 
   function printPhoto(container, title, photo) {
