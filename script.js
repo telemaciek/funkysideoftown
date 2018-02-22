@@ -1,7 +1,7 @@
 "use strict";
 (function () {
 
-  var photosPath = "photos/"
+  var photosPath = "http://funkysideoftown.com/funkysideoftown/photos/"
 
   var photosContainer = document.getElementById("photosContainer");
 
