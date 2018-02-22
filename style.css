@@ -14,11 +14,6 @@ body {
   padding-top: 36px;
 }
 
-@media screen and (max-width: 900px) {
-  body {
-  }
-}
-
 a {
   color: #444;
   text-decoration: none;
@@ -178,8 +173,6 @@ i {
 
 }
 @media (min-width: 1000px) {
-  .post {
-  }
   .h1 img,
   .v1 img,
   .v2 img {
@@ -194,9 +187,6 @@ i {
 
   .h4 .post-content div {
     display: grid;
-  }
-  .h4 .post-content div img {
-
   }
   .h4 .post-content div:nth-child(1) {
     justify-content: end;
