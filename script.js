@@ -26,7 +26,9 @@
     var imgElement = document.createElement("img");
     imageContainer.appendChild(imgElement);
     container.appendChild(imageContainer);
-    imgElement.setAttribute("src", photosPath + photo + '.jpg');
+    imgElement.setAttribute("data-src", photosPath + photo + '.jpg');
+    imgElement.setAttribute("class", 'lazyload');
+    imgElement.setAttribute("src", '');
     imgElement.alt = title;
   };
 
@@ -46,4 +48,5 @@
     .forEach(function (obj) {
       printPost(obj);
     });
+
 }());
