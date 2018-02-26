@@ -28,7 +28,7 @@
     container.appendChild(imageContainer);
     imgElement.setAttribute("data-src", photosPath + photo + '.jpg');
     imgElement.setAttribute("class", 'lazyload');
-    imgElement.setAttribute("src", '');
+    imgElement.setAttribute("src", 'photo-placeholder.png');
     imgElement.alt = title;
   };
 
