@@ -78,8 +78,8 @@ i {
   transition: all 0.1s;
 }
 
-.lazyload img,
-.lazyloading img {
+.lazyload,
+.lazyloading {
   transform: scale(0.5);
   opacity: 0.1;
 }
