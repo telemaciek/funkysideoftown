@@ -75,6 +75,17 @@ i {
   width: 100%;
   height: auto;
   margin: 0 auto;
+  transition: all 0.1s;
+}
+
+.lazyload img,
+.lazyloading img {
+  transform: scale(0.5);
+  opacity: 0.1;
+}
+.lazyloaded {
+  opacity: 1;
+  transform: scale(1)
 }
 
 .post-content {
