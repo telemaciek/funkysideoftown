@@ -75,17 +75,24 @@ i {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  transition: all 0.1s;
+  /* transition: all 0.1s; */
 }
 
-.lazyload,
-.lazyloading {
-  transform: scale(0.5);
-  opacity: 0.1;
+img.lazyload,
+img.lazyloading {
+  transform: scale(0.8);
+  max-width: 299px !important;
+  height: auto !important;
+  opacity: 0.05;
+  padding: 20vh 0;
 }
 .lazyloaded {
   opacity: 1;
-  transform: scale(1)
+  animation: photo-load 0.5s;
+}
+@keyframes photo-load {
+  0%   { opacity:0; }
+  100%   { opacity: 1; }
 }
 
 .post-content {
