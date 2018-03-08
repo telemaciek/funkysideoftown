@@ -3,7 +3,6 @@
   --font-header: "Southbank LT", "Proxima Nova", sans-serif;
   --font-navigation: "Southbank LT", "Proxima Nova", sans-serif;
 }
-
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -15,7 +14,9 @@ html, body {
 
 body {
   font-family: var(--font-sans);
-  font-size: 15px;
+  /* font-size: 15px; */
+  font-size: 0.95rem;
+  line-height: 1.4rem;
   color: #444;
   padding-top: 36px;
 }
@@ -46,7 +47,8 @@ i {
   padding: 0 15px 30px 15px;
   z-index: 2;
   font-family: var(--font-navigation);
-  font-size: 18px;
+  font-size: 1.3rem;
+  line-height: 1.2rem;
   text-align: center;
 }
 @media (min-width: 800px) {
@@ -101,7 +103,7 @@ img.lazyloading {
 }
 .post-caption {
   grid-area: caption;
-  opacity: 0.8;
+  color: #777;
 }
 
 @media (min-width: 600px) {
@@ -241,13 +243,14 @@ img.lazyloading {
 
 .about h2 {
   font-family: var(--font-header);
-  font-size: 25px;
+  font-size: 2rem;
+  line-height: 2.2rem;
   font-weight: bold;
   padding: 24px 15px 0 15px;
 }
 
 .about p {
-  line-height: 22px;
+  /* line-height: 22px; */
   padding: 12px 15px 0 15px;
   font-family: var(--font-sans);
 }
