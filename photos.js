@@ -17,7 +17,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Cairo, Egypt",
-    "date": "09/09/2005"
+    "date": "08/09/2005"
   },
   {
     "title": "Meat",
@@ -30,26 +30,6 @@ var photos = [
     "date": "03/03/2005"
   },
   {
-    "title": "Water",
-    "photos": [
-      "F1000005"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Egypt",
-    "date": "09/09/2005"
-  },
-  {
-    "title": "Clear signage",
-    "photos": [
-      "F1080009"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Egypt",
-    "date": "Sep 2005"
-  },
-  {
     "title": "Van Damme",
     "photos": [
       "F1030023"
@@ -57,7 +37,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Cannes, France",
-    "date": "aug 2007"
+    "date": "01/08/2007"
   },
   {
     "title": "9441",
@@ -67,7 +47,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Kraków, Poland",
-    "date": "august 2009"
+    "date": "01/08/2009"
   },
   {
     "title": "Downtown",
@@ -77,7 +57,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Katowice, Poland",
-    "date": "june 2009"
+    "date": "01/06/2009"
   },
   {
     "title": "Downtown 2",
@@ -87,17 +67,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Katowice, Poland",
-    "date": "june 2009"
-  },
-  {
-    "title": "Downtown 3",
-    "photos": [
-      "downtown_ii4_b"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Katowice, Poland",
-    "date": "june 2009"
+    "date": "01/06/2009"
   },
   {
     "title": "Tygiel",
@@ -107,7 +77,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Kraków, Poland",
-    "date": "june 2009"
+    "date": "01/06/2009"
   },
   {
     "title": "Big easy III",
@@ -117,7 +87,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Berlin, Germany",
-    "date": "april 2009"
+    "date": "01/04/2009"
   },
   {
     "title": "Big easy IV",
@@ -127,17 +97,18 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Berlin, Germany",
-    "date": "april 2009"
+    "date": "01/04/2009"
   },
   {
     "title": "Solitude",
     "photos": [
-      "solitude_b"
+      "solitude_b",
+      "black_eskimo_b"
     ],
     "type": "v",
     "caption": null,
     "location": "Izmir, Turkey",
-    "date": "march/april 2009"
+    "date": "01/04/2009"
   },
   {
     "title": "Anarchy",
@@ -147,17 +118,7 @@ var photos = [
     "type": "v",
     "caption": null,
     "location": "Izmir, Turkey",
-    "date": "march/april 2009"
-  },
-  {
-    "title": "Black Eskimo",
-    "photos": [
-      "black_eskimo_b"
-    ],
-    "type": "v",
-    "caption": null,
-    "location": "Izmir, Turkey",
-    "date": "march/april 2009"
+    "date": "01/03/2009"
   },
   {
     "title": "Baloons in Izmir",
@@ -167,17 +128,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Izmir, Turkey",
-    "date": "march 2009"
-  },
-  {
-    "title": "0007",
-    "photos": [
-      "0007"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Turkey",
-    "date": "march 2009"
+    "date": "01/03/2009"
   },
   {
     "title": "North East",
@@ -187,17 +138,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Szkieletor, Krakow",
-    "date": "feb 2009"
-  },
-  {
-    "title": "University of Economics",
-    "photos": [
-      "university_of_economics_b"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Szkieletor, Krakow",
-    "date": "feb 2009"
+    "date": "01/02/2009"
   },
   {
     "title": "GITS",
@@ -207,7 +148,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Szkieletor, Krakow",
-    "date": "feb 2009"
+    "date": "01/02/2009"
   },
   {
     "title": "Cage",
@@ -217,7 +158,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Szkieletor, Krakow",
-    "date": "feb 2009"
+    "date": "01/02/2009"
   },
   {
     "title": "Sky",
@@ -227,28 +168,18 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Szkieletor, Krakow",
-    "date": "feb 2009"
+    "date": "01/02/2009"
   },
   {
-    "title": "French Fair Band I & V",
+    "title": "French Fair Band / Premature Departure",
     "photos": [
-      "izmir_fair_french_band1_o",
+      "premature_departure_b",
       "izmir_fair_french_band5_o"
     ],
     "type": "v",
     "caption": null,
     "location": "Izmir, Turkey",
-    "date": "Feb 2009"
-  },
-  {
-    "title": "Premature Departure",
-    "photos": [
-      "premature_departure_b"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Izmir, Turkey",
-    "date": "Feb 2009"
+    "date": "01/02/2009"
   },
   {
     "title": "Digital Blonde",
@@ -258,7 +189,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Helsinki, Finland",
-    "date": "october 2007"
+    "date": "01/10/2007"
   },
   {
     "title": "The Yellow Bike",
@@ -268,17 +199,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Helsinki, Finland",
-    "date": "october 2007"
-  },
-  {
-    "title": "Estonian Bros",
-    "photos": [
-      "0015a"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Tartu",
-    "date": "2007"
+    "date": "01/10/2007"
   },
   {
     "title": "Monocycling to work",
@@ -288,17 +209,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Tartu",
-    "date": "2007"
-  },
-  {
-    "title": "Mateusz",
-    "photos": [
-      "0028a"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Tartu",
-    "date": "2007"
+    "date": "01/11/2007"
   },
   {
     "title": "Julien",
@@ -308,47 +219,17 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Tartu",
-    "date": "2007"
+    "date": "01/11/2007"
   },
   {
-    "title": "Up High",
-    "photos": [
-      "F1070002"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Graz, Austria",
-    "date": "August 2007"
-  },
-  {
-    "title": "First Contact",
-    "photos": [
-      "F1070014"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Italy",
-    "date": "August 2007"
-  },
-  {
-    "title": "Memorial Blocks",
-    "photos": [
-      "F1060002"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Italy",
-    "date": "August 2007"
-  },
-  {
-    "title": "Traditional Ladies",
+    "title": "Tradition",
     "photos": [
       "F1080001"
     ],
     "type": "h",
     "caption": null,
     "location": "Kraków",
-    "date": "August 2007"
+    "date": "01/08/2007"
   },
   {
     "title": "Kitchen View",
@@ -358,7 +239,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Kraków, Poland",
-    "date": "August 2007"
+    "date": "01/08/2007"
   },
   {
     "title": "The Dark Side of Venus",
@@ -368,7 +249,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Paris, France",
-    "date": "aug 2007"
+    "date": "01/08/2007"
   },
   {
     "title": "Cain",
@@ -472,20 +353,9 @@ var photos = [
     "date": "09/09/2009"
   },
   {
-    "title": "X and Y",
+    "title": "Blessing",
     "photos": [
-      "x_and_ya_o",
-      "x_and_yb_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Poland",
-    "date": "08/08/2006"
-  },
-  {
-    "title": "The Old Times",
-    "photos": [
-      "the_old_times_b"
+      "blessing_b"
     ],
     "type": "h",
     "caption": null,
@@ -514,18 +384,9 @@ var photos = [
     "date": "05/05/2008"
   },
   {
-    "title": "Autumn",
+    "title": "Autumn/Blur",
     "photos": [
-      "F1090003"
-    ],
-    "type": "v",
-    "caption": null,
-    "location": "Paris, France",
-    "date": "09/09/2009"
-  },
-  {
-    "title": "My life is a blur",
-    "photos": [
+      "F1090003",
       "my_life_is_a_blur_o"
     ],
     "type": "v",
@@ -547,16 +408,6 @@ var photos = [
     "title": "Luisa",
     "photos": [
       "luisa_o"
-    ],
-    "type": "v",
-    "caption": null,
-    "location": "Kraków, Poland",
-    "date": "06/06/2007"
-  },
-  {
-    "title": "Jurgen",
-    "photos": [
-      "jurgen_o"
     ],
     "type": "v",
     "caption": null,
@@ -623,7 +474,7 @@ var photos = [
     "type": "v",
     "caption": null,
     "location": "Katowice, Poland",
-    "date": "04/04/2007"
+    "date": "06/04/2007"
   },
   {
     "title": "Buddha",
@@ -633,7 +484,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Kraków, Poland",
-    "date": "04/04/2007"
+    "date": "05/04/2007"
   },
   {
     "title": "Eastern View",
@@ -687,17 +538,6 @@ var photos = [
     "date": "06/05/2008"
   },
   {
-    "title": "44 and others",
-    "photos": [
-      "44_and_others2_o",
-      "44_and_others3_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Berlin, Germany",
-    "date": "05/05/2008"
-  },
-  {
     "title": "The Trail",
     "photos": [
       "the_trail_o"
@@ -708,7 +548,7 @@ var photos = [
     "date": "10/10/2005"
   },
   {
-    "title": "The Skull",
+    "title": "Dramatic Skull",
     "photos": [
       "the_skull_o"
     ],
@@ -718,7 +558,7 @@ var photos = [
     "date": "10/10/2005"
   },
   {
-    "title": "Stuffed Duck",
+    "title": "Dramatic Stuffed Duck",
     "photos": [
       "stuffed_duck_o"
     ],
@@ -790,27 +630,6 @@ var photos = [
     "date": "09/09/2009"
   },
   {
-    "title": "The Original Low Angle",
-    "photos": [
-      "F1110020"
-    ],
-    "type": "v",
-    "caption": null,
-    "location": "France",
-    "date": "09/09/2009"
-  },
-  {
-    "title": "Love Insert Number",
-    "photos": [
-      "love_insert_number_o",
-      "F1110023"
-    ],
-    "type": "v",
-    "caption": null,
-    "location": "Italy/France",
-    "date": "09/09/2009"
-  },
-  {
     "title": "Bridge Club",
     "photos": [
       "F1110030",
@@ -832,19 +651,10 @@ var photos = [
     "date": "08/08/2007"
   },
   {
-    "title": "A Nap",
-    "photos": [
-      "a_nap_b"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Florence, Italy",
-    "date": "08/08/2007"
-  },
-  {
-    "title": "Florence Cathedral",
+    "title": "A Nap / Florence Cathedral",
     "photos": [
       "florence_cathedral_i_o",
+      "a_nap_b",
       "florence_cathedral_ii_o"
     ],
     "type": "v",
@@ -863,7 +673,7 @@ var photos = [
     "date": "08/08/2007"
   },
   {
-    "title": "Painters Place",
+    "title": "Painter",
     "photos": [
       "painters_place_o"
     ],
@@ -903,59 +713,9 @@ var photos = [
     "date": "04/04/2007"
   },
   {
-    "title": "Spring III",
-    "photos": [
-      "F1030015"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Kraków, Poland",
-    "date": "04/04/2007"
-  },
-  {
-    "title": "St Marks Basilica",
-    "photos": [
-      "st_marks_basilica_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Venice, Italy",
-    "date": "08/08/2007"
-  },
-  {
-    "title": "Venice Canals IV",
-    "photos": [
-      "venice_canals4_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Venice, Italy",
-    "date": "08/08/2007"
-  },
-  {
     "title": "Narrow",
     "photos": [
       "narrow_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Mantova, Italy",
-    "date": "08/08/2007"
-  },
-  {
-    "title": "Neptun",
-    "photos": [
-      "neptun_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Mantova, Italy",
-    "date": "08/08/2007"
-  },
-  {
-    "title": "Stripes",
-    "photos": [
-      "stripes_o"
     ],
     "type": "h",
     "caption": null,
@@ -1028,16 +788,6 @@ var photos = [
     "date": "08/08/2007"
   },
   {
-    "title": "The Other Side",
-    "photos": [
-      "the_other_side_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Riga, Latvia",
-    "date": "2008"
-  },
-  {
     "title": "This is starting to get silly",
     "photos": [
       "this_is_starting_to_get_silly_o"
@@ -1045,7 +795,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Riga, Latvia",
-    "date": "2008"
+    "date": "01/01/2008"
   },
   {
     "title": "Tatoo Trumpet",
@@ -1055,7 +805,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Tallinn, Estonia",
-    "date": "2008"
+    "date": "01/01/2008"
   },
   {
     "title": "Stranger in Finland VI & VII",
@@ -1066,7 +816,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Helsinki, Finland",
-    "date": "2008"
+    "date": "01/01/2008"
   },
   {
     "title": "Stranger in Finland IX & X",
@@ -1077,15 +827,17 @@ var photos = [
     "type": "v",
     "caption": null,
     "location": "Helsinki, Finland",
-    "date": "2008"
+    "date": "01/01/2008"
   },
+
+
+
   {
     "title": "Katowice-Barcelona I & II",
     "photos": [
-      "barcelona_katowice_ii2_b",
-      "barcelona_katowice1_o",
-      "barcelona_katowice2_o",
-      "barcelona_katowice_ii1_o"
+      "katowice-barcelona_iii1_o",
+      "katowice-barcelona_iii2_o",
+      "barcelona_katowice_ii2_b"
     ],
     "type": "v",
     "caption": null,
@@ -1093,31 +845,20 @@ var photos = [
     "date": "10/10/2007"
   },
   {
-    "title": "Katowice-Barcelona III & IV",
-    "photos": [
-      "katowice-barcelona_iii1_o",
-      "katowice-barcelona_iii2_o",
-      "katowice-barcelona_iv2_o",
-      "katowice-barcelona_iv6_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Katowice, Poland & Barcelona, Spain",
-    "date": "10/10/2007"
-  },
-  {
     "title": "Katowice-Barcelona IV 7-12",
     "photos": [
-      "katowice-barcelona_iv7_o",
-      "katowice-barcelona_iv9_o",
       "katowice-barcelona_iv12_o",
-      "katowice-barcelona_iv10_o"
+      "katowice-barcelona_iv9_o",
+      "katowice-barcelona_iv2_o",
+      "katowice-barcelona_iv7_o"
     ],
     "type": "h",
     "caption": null,
     "location": "Katowice, Poland & Barcelona, Spain",
     "date": "10/10/2007"
   },
+
+
   {
     "title": "Roadsign",
     "photos": [
@@ -1139,18 +880,6 @@ var photos = [
     "caption": null,
     "location": "Milan, Italy",
     "date": "08/08/2007"
-  },
-  {
-    "title": "Milan II",
-    "photos": [
-      "milan3_o",
-      "milan4_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Milan, Italy",
-    "date": "08/08/2007",
-    "display": 0
   },
   {
     "title": "German Girls",
@@ -1211,10 +940,7 @@ var photos = [
   {
     "title": "Porto",
     "photos": [
-      "streets_of_porto1_o",
-      "porto_riverscape_o",
-      "porto_cityscape_ii_o",
-      "oporto_i_o"
+      "porto_cityscape_ii_o"
     ],
     "type": "h",
     "caption": null,
@@ -1332,16 +1058,6 @@ var photos = [
     "date": "08/08/2007"
   },
   {
-    "title": "The Hook",
-    "photos": [
-      "the_hook_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Italy",
-    "date": "08/08/2007"
-  },
-  {
     "title": "Vive Le Rouge",
     "photos": [
       "vive_le_rouge"
@@ -1362,28 +1078,6 @@ var photos = [
     "date": "09/09/2009"
   },
   {
-    "title": "Miniatures",
-    "photos": [
-      "F1090031"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Paris, France",
-    "date": "09/09/2009"
-  },
-  {
-    "title": "Directions",
-    "photos": [
-      "F1100015",
-      "F1100016",
-      "F1110004"
-    ],
-    "type": "v",
-    "caption": null,
-    "location": "Paris, France",
-    "date": "09/09/2009"
-  },
-  {
     "title": "Iron",
     "photos": [
       "F1110033",
@@ -1395,16 +1089,6 @@ var photos = [
     "date": "09/09/2009"
   },
   {
-    "title": "Out of focus",
-    "photos": [
-      "F1110012"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Barcelona, Spain",
-    "date": "09/09/2009"
-  },
-  {
     "title": "Woman in red",
     "photos": [
       "women_in_red_o"
@@ -1412,17 +1096,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Tartu, Estonia",
-    "date": "2007"
-  },
-  {
-    "title": "Pray",
-    "photos": [
-      "pray_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Italy",
-    "date": "09/09/2009"
+    "date": "01/10/2007"
   },
   {
     "title": "The Most Beautiful Sunset",
@@ -1433,17 +1107,7 @@ var photos = [
     "type": "v",
     "caption": null,
     "location": "Helsinki, Finland",
-    "date": "2007"
-  },
-  {
-    "title": "A Nice Pic of a Tree",
-    "photos": [
-      "a_nice_pic_of_a_tree_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Helsinki, Finland",
-    "date": "2007"
+    "date": "01/10/2007"
   },
   {
     "title": "The Captain and his Raindeer",
@@ -1453,7 +1117,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Helsinki, Finland",
-    "date": "2007"
+    "date": "01/10/2007"
   },
   {
     "title": "Tartu Stranger I",
@@ -1464,18 +1128,7 @@ var photos = [
     "type": "v",
     "caption": null,
     "location": "Tartu, Estonia",
-    "date": "2007"
-  },
-  {
-    "title": "Tartu Stranger II & III",
-    "photos": [
-      "tartu_stranger_ii_o",
-      "tartu_stranger_iii_o"
-    ],
-    "type": "v",
-    "caption": null,
-    "location": "Tartu, Estonia",
-    "date": "2007"
+    "date": "01/10/2007"
   },
   {
     "title": "Tallinn at Dusk",
@@ -1487,7 +1140,7 @@ var photos = [
     "type": "vhh",
     "caption": null,
     "location": "Tallinn, Estonia",
-    "date": "2007"
+    "date": "01/10/2007"
   },
   {
     "title": "Stranger in Finland V",
@@ -1498,7 +1151,7 @@ var photos = [
     "type": "v",
     "caption": null,
     "location": "Helsinki, Finland",
-    "date": "2007"
+    "date": "01/10/2007"
   },
   {
     "title": "Stranger in Finland II–IV",
@@ -1510,7 +1163,7 @@ var photos = [
     "type": "v",
     "caption": null,
     "location": "Helsinki, Finland",
-    "date": "2007"
+    "date": "01/10/2007"
   },
   {
     "title": "Pasta With Tuna Sauce",
@@ -1520,7 +1173,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Tallinn, Estonia",
-    "date": "2007"
+    "date": "01/10/2007"
   },
   {
     "title": "Late Night Jazz",
@@ -1531,27 +1184,17 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Tallinn, Estonia",
-    "date": "2007"
+    "date": "01/10/2007"
   },
   {
-    "title": "My Bike",
-    "photos": [
-      "my_bike_o"
-    ],
-    "type": "h",
-    "caption": "Disappearing into bike heaven",
-    "location": "Kraków, Poland",
-    "date": "06/06/2007"
-  },
-  {
-    "title": "Heads of Dead Children",
+    "title": "Heads",
     "photos": [
       "heads_of_dead_children_o"
     ],
     "type": "h",
     "caption": null,
     "location": "Helsinki, Finland",
-    "date": "2007"
+    "date": "01/10/2007"
   },
   {
     "title": "Have a nice day",
@@ -1561,39 +1204,19 @@ var photos = [
     "type": "v",
     "caption": null,
     "location": "Helsinki, Finland",
-    "date": "2007"
-  },
-  {
-    "title": "Accordion Player",
-    "photos": [
-      "accordion_player_o"
-    ],
-    "type": "v",
-    "caption": null,
-    "location": "Helsinki, Finland",
-    "date": "2007"
+    "date": "01/10/2007"
   },
   {
     "title": "Green Grass Records I",
     "photos": [
       "green_grass_records_i1_o",
-      "green_grass_records_i2_o"
+      "green_grass_records_ii2_o",
+      "green_grass_records_ii1_o"
     ],
-    "type": "v",
+    "type": "vhh",
     "caption": null,
     "location": "Helsinki, Finland",
-    "date": "2007"
-  },
-  {
-    "title": "Green Grass Records II",
-    "photos": [
-      "green_grass_records_ii1_o",
-      "green_grass_records_ii2_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Helsinki, Finland",
-    "date": "2007"
+    "date": "01/10/2007"
   },
   {
     "title": "Enlightened",
@@ -1603,7 +1226,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Helsinki, Finland",
-    "date": "2007"
+    "date": "01/10/2007"
   },
   {
     "title": "Bookstore",
@@ -1614,7 +1237,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Tallinn, Estonia",
-    "date": "2007"
+    "date": "01/10/2007"
   },
   {
     "title": "Another Pink Car",
@@ -1624,7 +1247,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Helsinki, Finland",
-    "date": "2007"
+    "date": "01/10/2007"
   },
   {
     "title": "Backlit Tourist",
@@ -1634,17 +1257,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Tallinn, Estonia",
-    "date": "2007"
-  },
-  {
-    "title": "Houses A",
-    "photos": [
-      "housesa_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Turkey",
-    "date": "09/09/2008"
+    "date": "01/10/2007"
   },
   {
     "title": "Tractor in Urla",
@@ -1667,16 +1280,6 @@ var photos = [
     "date": "09/09/2008"
   },
   {
-    "title": "Chios",
-    "photos": [
-      "chios_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Chios, Greece",
-    "date": "09/09/2008"
-  },
-  {
     "title": "Tea and Cigarettes",
     "photos": [
       "tea_and_cigarettes_o"
@@ -1684,26 +1287,6 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Izmir, Turkey",
-    "date": "09/09/2008"
-  },
-  {
-    "title": "Heart On The Wall",
-    "photos": [
-      "heart_on_the_wall_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Urla, Turkey",
-    "date": "09/09/2008"
-  },
-  {
-    "title": "My Favs",
-    "photos": [
-      "oldschool_cars_are_my_favs_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Urla, Turkey",
     "date": "09/09/2008"
   },
   {
@@ -1717,18 +1300,11 @@ var photos = [
     "date": "09/09/2008"
   },
   {
-    "title": "Wash Me",
+    "title": "Urla",
     "photos": [
-      "wash_me_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Urla, Turkey",
-    "date": "09/09/2008"
-  },
-  {
-    "title": "A Dead Fish",
-    "photos": [
+      "housesa_o",
+      "heart_on_the_wall_o",
+      "wash_me_o",
       "a_dead_fish_o"
     ],
     "type": "h",
@@ -1758,16 +1334,6 @@ var photos = [
     "date": "09/09/2008"
   },
   {
-    "title": "Ride it",
-    "photos": [
-      "ride_it_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Izmir, Turkey",
-    "date": "09/09/2008"
-  },
-  {
     "title": "Windy Afternoon",
     "photos": [
       "windy_afternoon_o"
@@ -1788,16 +1354,6 @@ var photos = [
     "date": "09/09/2008"
   },
   {
-    "title": "Sea View",
-    "photos": [
-      "sea_view_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Izmir, Turkey",
-    "date": "09/09/2008"
-  },
-  {
     "title": "J O",
     "photos": [
       "j_o"
@@ -1805,7 +1361,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Malaga, Spain",
-    "date": "2008"
+    "date": "05/06/2008"
   },
   {
     "title": "Berlin Multiples",
@@ -1828,7 +1384,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Kraków, Poland",
-    "date": "2008"
+    "date": "01/01/2008"
   },
   {
     "title": "Ege Motor",
@@ -1839,7 +1395,7 @@ var photos = [
     "type": "v",
     "caption": null,
     "location": "Turkey",
-    "date": "2008"
+    "date": "10/04/2008"
   },
   {
     "title": "Don't ask me",
@@ -1849,17 +1405,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Turkey",
-    "date": "2008"
-  },
-  {
-    "title": "Spring is dead",
-    "photos": [
-      "spring_is_dead_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Berlin, Germany",
-    "date": "05/05/2008"
+    "date": "10/04/2008"
   },
   {
     "title": "Thomas",
@@ -1902,26 +1448,6 @@ var photos = [
     "date": "04/04/2008"
   },
   {
-    "title": "Turkish Traffic",
-    "photos": [
-      "turkish_traffic_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Istanbul, Turkey",
-    "date": "04/04/2008"
-  },
-  {
-    "title": "A Toy and a Flag",
-    "photos": [
-      "a_toy_and_a_flag_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Istanbul, Turkey",
-    "date": "04/04/2008"
-  },
-  {
     "title": "Cihangir Mosque Cementary",
     "photos": [
       "cihangir_mosque_cementary_o"
@@ -1952,29 +1478,9 @@ var photos = [
     "date": "04/04/2008"
   },
   {
-    "title": "Eminonu",
-    "photos": [
-      "eminonu_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Istanbul, Turkey",
-    "date": "04/04/2008"
-  },
-  {
     "title": "North Ortakoy Mosque",
     "photos": [
       "north_ortakoy_mosque_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Istanbul, Turkey",
-    "date": "04/04/2008"
-  },
-  {
-    "title": "Eminonu Bridge",
-    "photos": [
-      "eminonu_bridge_o"
     ],
     "type": "h",
     "caption": null,
@@ -2012,35 +1518,14 @@ var photos = [
     "date": "04/04/2008"
   },
   {
-    "title": "Texture",
-    "photos": [
-      "texture_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Istanbul, Turkey",
-    "date": "04/04/2008"
-  },
-  {
     "title": "Mercimek Iskembe",
     "photos": [
-      "mercimek_iskembe_o",
-      "mercimek_iskembe_ii_o"
+      "mercimek_iskembe_o"
     ],
     "type": "h",
     "caption": null,
     "location": "Istanbul, Turkey",
     "date": "04/04/2008"
-  },
-  {
-    "title": "Liar",
-    "photos": [
-      "liar_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Kraków, Poland",
-    "date": "2008"
   },
   {
     "title": "Drown My Day",
@@ -2051,18 +1536,6 @@ var photos = [
       "drown_my_day1_o"
     ],
     "type": "h",
-    "caption": null,
-    "location": "Kraków, Poland",
-    "date": "05/05/2008"
-  },
-  {
-    "title": "Yellow Boy",
-    "photos": [
-      "the_yellow_boy_o",
-      "krakow_sihoulette1_o",
-      "krakow_sihoulette2_o"
-    ],
-    "type": "vhh",
     "caption": null,
     "location": "Kraków, Poland",
     "date": "05/05/2008"
@@ -2086,7 +1559,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Stockholm, Sweden",
-    "date": "2008"
+    "date": "17/02/2009"
   },
   {
     "title": "Gloomy Windows",
@@ -2096,7 +1569,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Stockholm, Sweden",
-    "date": "2008"
+    "date": "17/02/2009"
   },
   {
     "title": "Hope There's Someone",
@@ -2106,7 +1579,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Stockholm, Sweden",
-    "date": "2008"
+    "date": "17/02/2009"
   },
   {
     "title": "Nice people are everywhere",
@@ -2116,7 +1589,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Stockholm, Sweden",
-    "date": "2008"
+    "date": "17/02/2009"
   },
   {
     "title": "Life To Freedom",
@@ -2126,37 +1599,28 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Stockholm, Sweden",
-    "date": "2008"
+    "date": "18/02/2009"
   },
   {
-    "title": "This is Emo",
+    "title": "Emo",
     "photos": [
       "is_this_emo_o"
     ],
     "type": "h",
     "caption": null,
     "location": "Tartu, Estonia",
-    "date": "2007"
+    "date": "02/02/2007"
   },
   {
-    "title": "Misty",
+    "title": "A Couple Misty Shots From Riga",
     "photos": [
+      "a_couple_shots_from_riga_o",
       "misty_o"
     ],
     "type": "h",
     "caption": null,
     "location": "Riga, Latvia",
-    "date": "2008"
-  },
-  {
-    "title": "A Couple Shots From Riga",
-    "photos": [
-      "a_couple_shots_from_riga_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Riga, Latvia",
-    "date": "2008"
+    "date": "01/01/2008"
   },
   {
     "title": "Poker Mike",
@@ -2166,7 +1630,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Tartu, Estonia",
-    "date": "2007"
+    "date": "02/02/2007"
   },
   {
     "title": "Stranger in Estonia II, XI & XII",
@@ -2178,7 +1642,7 @@ var photos = [
     "type": "v",
     "caption": null,
     "location": "Tartu, Estonia",
-    "date": "2007"
+    "date": "01/02/2007"
   },
   {
     "title": "Stranger in Estonia I, VIII & X",
@@ -2190,7 +1654,7 @@ var photos = [
     "type": "v",
     "caption": null,
     "location": "Tartu, Estonia",
-    "date": "2007"
+    "date": "03/02/2007"
   },
   {
     "title": "Stranger in Estonia III & VII",
@@ -2202,6 +1666,6 @@ var photos = [
     "type": "v",
     "caption": null,
     "location": "Tartu, Estonia",
-    "date": "2007"
+    "date": "02/02/2007"
   }
 ]

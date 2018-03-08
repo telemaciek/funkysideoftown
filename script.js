@@ -1,7 +1,7 @@
 "use strict";
 (function () {
 
-  var photosPath = "http://funkysideoftown.com/funkysideoftown/photos/"
+  var photosPath = "photos-optimized/"
 
   var photosContainer = document.getElementById("photosContainer");
 
@@ -17,8 +17,8 @@
     obj.photos.forEach(printPhoto.bind(null, photoContainer, obj.title));
 
 
-    // printCaption(obj.title + " — " + obj.location, postContainer);
-    printCaption(obj.location, postContainer);
+    printCaption(obj.title + " — " + obj.date, postContainer);
+    // printCaption(obj.location, postContainer);
   };
 
   function printPhoto(container, title, photo) {
