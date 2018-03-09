@@ -1,7 +1,12 @@
+@import url("https://use.typekit.net/ejm3ame.css");
+
 :root {
-  --font-sans: "Proxima Nova", sans-serif;
-  --font-header: "Southbank LT", "Proxima Nova", sans-serif;
-  --font-navigation: "Southbank LT", "Proxima Nova", sans-serif;
+  /* --font-sans: "Proxima Nova", sans-serif; */
+  --font-sans: "brother-1816",sans-serif;
+  /* --font-header: "Southbank LT", "Proxima Nova", sans-serif; */
+  --font-header: "brother-1816",sans-serif;
+  /* --font-navigation: "Southbank LT", "Proxima Nova", sans-serif; */
+  --font-navigation: "brother-1816",sans-serif;
 }
 * {
   box-sizing: border-box;
@@ -15,10 +20,16 @@ html, body {
 body {
   font-family: var(--font-sans);
   /* font-size: 15px; */
-  font-size: 0.95rem;
-  line-height: 1.4rem;
+  font-size: 0.85rem;
+  line-height: 1.3rem;
   color: #444;
-  padding-top: 36px;
+  /* padding-top: 50px; */
+  font-weight: 300;
+}
+@media (min-width: 800px) {
+  body {
+    padding-top: 60px;
+  }
 }
 
 a {
@@ -43,12 +54,14 @@ i {
   grid-template-columns: auto;
   grid-template-rows: auto auto;
   grid-gap: 10px;
-  top: 13px;
-  padding: 0 15px 30px 15px;
+  padding: 30px 15px 30px 15px;
   z-index: 2;
   font-family: var(--font-navigation);
   font-size: 1.3rem;
-  line-height: 1.2rem;
+  letter-spacing: -0.05rem;
+  font-weight: 600;
+  line-height: 1.4rem;
+  text-transform: uppercase;
   text-align: center;
 }
 @media (min-width: 800px) {
@@ -56,7 +69,9 @@ i {
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     position: fixed;
+    top: 20px;
     text-align: left;
+    padding-top: 0px;
   }
   .main-nav nav {
     text-align: right;
@@ -116,7 +131,7 @@ img.lazyloading {
     grid-template-rows: 1fr;
     grid-template-areas: "a" ;
     grid-gap: 5px;
-    padding: 5px;
+    padding: 0 5px;
   }
   .post-content div:nth-child(1) {
     grid-area: a;
@@ -243,9 +258,11 @@ img.lazyloading {
 
 .about h2 {
   font-family: var(--font-header);
-  font-size: 2rem;
-  line-height: 2.2rem;
-  font-weight: bold;
+  font-size: 1.3rem;
+  letter-spacing: -0.05rem;
+  line-height: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 800;
   padding: 24px 15px 0 15px;
 }
 
@@ -262,10 +279,14 @@ img.lazyloading {
   /* padding-top: 25px; */
 }
 
-.about .end {
+.fin {
+  font-family: var(--font-header);
+  font-size: 1.3rem;
+  letter-spacing: -0.05rem;
+  line-height: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 100%;
   text-align: center;
-  color: #222;
-  font-size: 24px;
-  font-family: var(--font-sans);
-  padding-bottom: 100px;
+  padding: 100px 0 150px 0;
 }
