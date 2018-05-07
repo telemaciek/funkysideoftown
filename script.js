@@ -17,7 +17,7 @@
     obj.photos.forEach(printPhoto.bind(null, photoContainer, obj.title));
 
 
-    printCaption(obj.title + " — " + obj.date, postContainer);
+    printCaption(obj.title + " —— " + obj.location + " —— " + obj.caption + " —— " + obj.date, postContainer);
     // printCaption(obj.location, postContainer);
   };
 
@@ -43,8 +43,15 @@
     .sort(function (current, next) {
       var currentTimestamp = (new Date(current.date)).getTime();
       var nextTimestamp = (new Date(next.date)).getTime();
-      return nextTimestamp - currentTimestamp;
+
+      console.log(current.title);
+      console.log("now " + currentTimestamp);
+      console.log("next " + nextTimestamp);
+      console.log(nextTimestamp - currentTimestamp);
+
+      return currentTimestamp - nextTimestamp;
     })
+    .reverse()
     .forEach(function (obj) {
       printPost(obj);
     });
