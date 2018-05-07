@@ -1,5 +1,25 @@
 var photos = [
   {
+    "title": "Dramatic Stuffed Duck",
+    "photos": [
+      "stuffed_duck_o"
+    ],
+    "type": "h",
+    "caption": null,
+    "location": "Zakopane, Poland",
+    "date": "2005-10-10"
+  },
+  {
+    "title": "Dramatic Skull",
+    "photos": [
+      "the_skull_o"
+    ],
+    "type": "h",
+    "caption": null,
+    "location": "Zakopane, Poland",
+    "date": "2005-10-10"
+  },
+  {
     "title": "0007",
     "photos": [
       "0007"
@@ -8,6 +28,16 @@ var photos = [
     "caption": null,
     "location": "Turkey",
     "date": "01/03/2009"
+  },
+  {
+    "title": "Motyl",
+    "photos": [
+      "motyl_o"
+    ],
+    "type": "h",
+    "caption": null,
+    "location": "Kraków, Poland",
+    "date": "2004-12-12"
   },
   {
     "title": "Chios",
