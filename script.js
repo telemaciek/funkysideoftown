@@ -1,7 +1,8 @@
 "use strict";
 (function () {
 
-  var photosPath = "http://funkysideoftown.com/funkysideoftown/photos/"
+  var photosPath = "http://szafraniec.easyisp.pl/photos/"
+  // var photosPath = "photos/"
 
   var photosContainer = document.getElementById("photosContainer");
 
@@ -17,8 +18,8 @@
     obj.photos.forEach(printPhoto.bind(null, photoContainer, obj.title));
 
 
-    printCaption(obj.title + " —— " + obj.location + " —— " + obj.caption + " —— " + obj.date, postContainer);
-    // printCaption(obj.location, postContainer);
+    // printCaption(obj.title + " —— " + obj.location + " —— " + obj.caption + " —— " + obj.date, postContainer);
+    printCaption(obj.location, postContainer);
   };
 
   function printPhoto(container, title, photo) {
