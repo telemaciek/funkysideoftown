@@ -18,6 +18,7 @@
     obj.photos.forEach(printPhoto.bind(null, photoContainer, obj.title));
 
 
+    // printCaption(obj.title + ", " + obj.location + ", " + obj.caption + ", " + obj.date, postContainer);
     // printCaption(obj.title + " —— " + obj.location + " —— " + obj.caption + " —— " + obj.date, postContainer);
     printCaption(obj.location, postContainer);
   };

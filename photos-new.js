@@ -10,16 +10,6 @@ var photos = [
     "date": "2017-01-02"
   },
   {
-    "title": "Roses",
-    "photos": [
-      "2017-01-10017121-F1000033"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Kraków, Poland",
-    "date": "2017-01-01"
-  },
-  {
     "title": "Floral Skull",
     "photos": [
       "2016-11-10217121-F1020006"
@@ -30,26 +20,6 @@ var photos = [
     "date": "2016-11-30"
   },
   {
-    "title": "Paper Bags",
-    "photos": [
-      "2016-11-10217121-F1020019"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "London, UK",
-    "date": "2016-11-20"
-  },
-  {
-    "title": "Stranger",
-    "photos": [
-      "2016-05-10216804-F1020013"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Austin, USA",
-    "date": "2016-10-20"
-  },
-  {
     "title": "Fire",
     "photos": [
       "2016-05-10216804-F1020016"
@@ -57,7 +27,7 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "Austin, USA",
-    "date": "2016-10-17"
+    "date": "2016-10-23"
   },
   {
     "title": "Graduated",
@@ -80,21 +50,22 @@ var photos = [
     "date": "2016-10-13"
   },
   {
-    "title": "James Dean",
+    "title": "Stranger",
     "photos": [
-      "2016-05-10216804-F1020002"
+      "2016-05-10216804-F1020013"
     ],
     "type": "h",
     "caption": null,
     "location": "Austin, USA",
-    "date": "2016-10-10"
+    "date": "2016-10-11"
   },
   {
-    "title": "Brandon",
+    "title": "James Dean",
     "photos": [
+      "2016-05-10216804-F1020002",
       "2016-05-10216804-F1020006"
     ],
-    "type": "h",
+    "type": "v",
     "caption": null,
     "location": "Austin, USA",
     "date": "2016-10-07"
@@ -852,26 +823,5 @@ var photos = [
     "caption": null,
     "location": "Kraków, Poland",
     "date": "2015-02-01"
-  },
-  {
-    "title": "Princess",
-    "photos": [
-      "2014-09-10314929-F1030006"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Athens, Greece",
-    "date": "2014-09-02"
-  },
-  {
-    "title": "The Comedian Is Dead",
-    "photos": [
-      "2014-09-10314929-F1030029",
-      "2014-09-10314929-F1030020"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Athens, Greece",
-    "date": "2014-09-01"
   }
 ]
