@@ -48,6 +48,10 @@ i {
   font-style: italic;
 }
 
+.strike {
+  text-decoration: line-through;
+}
+
 .main-nav {
   width: 100vw;
   display: grid;
