@@ -60,64 +60,12 @@ var photos = [
     "date": "2016-10-11"
   },
   {
-    "title": "James Dean",
-    "photos": [
-      "2016-05-10216804-F1020002",
-      "2016-05-10216804-F1020006"
-    ],
-    "type": "v",
-    "caption": null,
-    "location": "Austin, USA",
-    "date": "2016-10-07"
-  },
-  {
-    "title": "Def Leppard",
-    "photos": [
-      "2016-05-10216804-F1020012"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Austin, USA",
-    "date": "2016-10-04"
-  },
-  {
-    "title": "Dios De La Muerte",
-    "photos": [
-      "2016-10-10517121-F1050006",
-      "2016-10-10517121-F1050005"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "San Antonio, USA",
-    "date": "2016-09-30"
-  },
-  {
-    "title": "Man About To Say Something",
-    "photos": [
-      "2016-10-10517121-F1050007"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "San Antonio, USA",
-    "date": "2016-09-27"
-  },
-  {
-    "title": "Jamie",
-    "photos": [
-      "2016-10-10517121-F1050022"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "San Antonio, USA",
-    "date": "2016-09-25"
-  },
-  {
     "title": "Burger Joint",
     "photos": [
-      "2016-10-10517121-F1050034",
+      "2016-10-10517121-F1050022",
       "2016-05-10216804-F1020029",
-      "2016-10-10517121-F1050023",
-      "2016-05-10116804-F1010006"
+      "2016-05-10116804-F1010006",
+      "2016-05-10216804-F1020023"
     ],
     "type": "h",
     "caption": null,
@@ -165,16 +113,6 @@ var photos = [
     "date": "2016-05-20"
   },
   {
-    "title": "Friendly Conversation",
-    "photos": [
-      "2016-05-10216804-F1020023"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "San Antonio, USA",
-    "date": "2016-05-16"
-  },
-  {
     "title": "Make Donald Drumpf Again",
     "photos": [
       "2016-05-10216804-F1020025",
@@ -198,6 +136,9 @@ var photos = [
   {
     "title": "Father and son",
     "photos": [
+      "2016-10-10517121-F1050006",
+      "2016-10-10517121-F1050034",
+      "2016-10-10517121-F1050007",
       "2016-05-10116804-F1010010"
     ],
     "type": "h",
@@ -216,11 +157,12 @@ var photos = [
     "date": "2015-12-30"
   },
   {
-    "title": "Off Me Lips",
+    "title": "Mate",
     "photos": [
-      "2015-10-10515A20-F1050011"
+      "2015-09-10315A20-F1030030",
+      "2015-09-10315A20-F1030014"
     ],
-    "type": "h",
+    "type": "v",
     "caption": null,
     "location": "Los Angeles, USA",
     "date": "2015-12-29"
@@ -234,48 +176,7 @@ var photos = [
     "type": "v",
     "caption": null,
     "location": "Los Angeles, USA",
-    "date": "2015-12-28"
-  },
-  {
-    "title": "The World",
-    "photos": [
-      "2015-09-10315A20-F1030024"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Los Angeles, USA",
-    "date": "2015-12-27"
-  },
-  {
-    "title": "Venice",
-    "photos": [
-      "2015-10-10515A20-F1050010"
-    ],
-    "type": "v",
-    "caption": null,
-    "location": "Los Angeles, USA",
     "date": "2015-12-26"
-  },
-  {
-    "title": "Mate",
-    "photos": [
-      "2015-09-10315A20-F1030030",
-      "2015-09-10315A20-F1030014"
-    ],
-    "type": "v",
-    "caption": null,
-    "location": "Los Angeles, USA",
-    "date": "2015-12-23"
-  },
-  {
-    "title": "Christian Fiesta",
-    "photos": [
-      "2015-10-10015B10-F1000002"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Santa Barbara, USA",
-    "date": "2015-12-22"
   },
   {
     "title": "Balajo",
@@ -298,13 +199,13 @@ var photos = [
     "date": "2015-12-19"
   },
   {
-    "title": "Bankruptcy Court",
+    "title": "Buddies",
     "photos": [
-      "2015-10-10016804-F1000033"
+      "2015-10-10315B10-F1030030"
     ],
     "type": "h",
     "caption": null,
-    "location": "Santa Barbara, USA",
+    "location": "San Francisco, USA & Paris, France",
     "date": "2015-12-18"
   },
   {
@@ -331,13 +232,13 @@ var photos = [
     "date": "2015-12-16"
   },
   {
-    "title": "Going Out",
+    "title": "NWA",
     "photos": [
-      "2015-10-10316804-F1030010"
+      "2015-10-10315B10-F1030008"
     ],
     "type": "h",
     "caption": null,
-    "location": "Katowice, Poland",
+    "location": "San Francisco, USA & Paris, France",
     "date": "2015-12-15"
   },
   {
@@ -371,13 +272,13 @@ var photos = [
     "date": "2015-12-12"
   },
   {
-    "title": "Buddies",
+    "title": "Christian Fiesta",
     "photos": [
-      "2015-10-10315B10-F1030030"
+      "2015-10-10015B10-F1000002"
     ],
     "type": "h",
     "caption": null,
-    "location": "San Francisco, USA & Paris, France",
+    "location": "Santa Barbara, USA",
     "date": "2015-12-11"
   },
   {
@@ -423,13 +324,13 @@ var photos = [
     "date": "2015-12-07"
   },
   {
-    "title": "NWA",
+    "title": "Bankruptcy Court",
     "photos": [
-      "2015-10-10315B10-F1030008"
+      "2015-10-10016804-F1000033"
     ],
     "type": "h",
     "caption": null,
-    "location": "San Francisco, USA & Paris, France",
+    "location": "Santa Barbara, USA",
     "date": "2015-12-06"
   },
   {
@@ -471,16 +372,6 @@ var photos = [
     "caption": null,
     "location": "Kraków, Poland",
     "date": "2015-11-21"
-  },
-  {
-    "title": "Straz Miejska",
-    "photos": [
-      "2015-10-10316804-F1030027"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Kraków, Poland",
-    "date": "2015-11-18"
   },
   {
     "title": "Natural Born",
@@ -598,46 +489,6 @@ var photos = [
     "date": "2015-10-03"
   },
   {
-    "title": "Citizens United",
-    "photos": [
-      "2015-10-10215B10-F1020009"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "San Francisco, USA",
-    "date": "2015-09-31"
-  },
-  {
-    "title": "Raiders",
-    "photos": [
-      "2015-10-10515A20-F1050018"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "San Francisco, USA",
-    "date": "2015-09-28"
-  },
-  {
-    "title": "Tower",
-    "photos": [
-      "2015-10-10515A20-F1050023"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "San Francisco, USA",
-    "date": "2015-09-25"
-  },
-  {
-    "title": "Downtown II",
-    "photos": [
-      "2015-10-10515A20-F1050025"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "San Francisco, USA",
-    "date": "2015-09-22"
-  },
-  {
     "title": "Urban Cowboy",
     "photos": [
       "2015-09-10415A20-F1040001"
@@ -650,12 +501,15 @@ var photos = [
   {
     "title": "Pier 39",
     "photos": [
+      "2015-10-10215B10-F1020009",
+      "2015-10-10515A20-F1050023",
+      "2015-10-10515A20-F1050025",
       "2015-09-10415A20-F1040002"
     ],
     "type": "h",
     "caption": null,
     "location": "San Francisco, USA",
-    "date": "2015-09-16"
+    "date": "2015-09-10"
   },
   {
     "title": "Festival",
@@ -665,17 +519,17 @@ var photos = [
     "type": "h",
     "caption": null,
     "location": "San Francisco, USA",
-    "date": "2015-09-13"
+    "date": "2015-09-09"
   },
   {
-    "title": "Beer",
+    "title": "Dotted",
     "photos": [
-      "2015-09-10415A20-F1040008"
+      "2015-09-10415A20-F1040022"
     ],
     "type": "h",
     "caption": null,
     "location": "San Francisco, USA",
-    "date": "2015-09-10"
+    "date": "2015-09-08"
   },
   {
     "title": "A bus ride",
@@ -689,16 +543,6 @@ var photos = [
     "caption": null,
     "location": "San Francisco, USA",
     "date": "2015-09-07"
-  },
-  {
-    "title": "Dotted",
-    "photos": [
-      "2015-09-10415A20-F1040022"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "San Francisco, USA",
-    "date": "2015-09-04"
   },
   {
     "title": "Downtown",
@@ -1350,9 +1194,12 @@ var photos = [
     "date": "2008-09-09"
   },
   {
-    "title": "Pide Trip",
+    "title": "Urla",
     "photos": [
-      "pidetrip_o"
+      "housesa_o",
+      "heart_on_the_wall_o",
+      "wash_me_o",
+      "a_dead_fish_o"
     ],
     "type": "h",
     "caption": null,
@@ -1360,12 +1207,9 @@ var photos = [
     "date": "2008-09-09"
   },
   {
-    "title": "Urla",
+    "title": "Pide Trip",
     "photos": [
-      "housesa_o",
-      "heart_on_the_wall_o",
-      "wash_me_o",
-      "a_dead_fish_o"
+      "pidetrip_o"
     ],
     "type": "h",
     "caption": null,
@@ -2905,22 +2749,22 @@ var photos = [
     "date": "2005-03-06"
   },
   {
-    "title": "Eastern View",
-    "photos": [
-      "f1_0003_o"
-    ],
-    "type": "h",
-    "caption": null,
-    "location": "Katowice, Poland",
-    "date": "2005-03-03"
-  },
-  {
     "title": "Mieso",
     "photos": [
       "meat_b"
     ],
     "type": "h",
     "caption": "Zenit + Velvia",
+    "location": "Katowice, Poland",
+    "date": "2005-03-03"
+  },
+  {
+    "title": "Eastern View",
+    "photos": [
+      "f1_0003_o"
+    ],
+    "type": "h",
+    "caption": null,
     "location": "Katowice, Poland",
     "date": "2005-03-03"
   },
