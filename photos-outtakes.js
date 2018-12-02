@@ -1618,4 +1618,14 @@ var photos = [
     "location": "San Francisco, USA",
     "date": "2015-09-22"
   },
+  {
+    "title": "Citizens United",
+    "photos": [
+      "2015-10-10215B10-F1020009"
+    ],
+    "type": "h",
+    "caption": null,
+    "location": "San Francisco, USA",
+    "date": "2015-09-31"
+  },
 ]
