@@ -2084,7 +2084,7 @@ var photos = [
     "type": "v",
     "caption": null,
     "location": "Frankfurt, Germany",
-    "date": "2007-07-010"
+    "date": "2007-07-10"
   },
   {
     "title": "Handsome",
