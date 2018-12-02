@@ -1,5 +1,25 @@
 var photos = [
   {
+    "title": "Black/Pink",
+    "photos": [
+      "f1010017"
+    ],
+    "type": "h",
+    "caption": null,
+    "location": "New York, USA",
+    "date": "2017-05-13"
+  },
+  {
+    "title": "Cold Drinks",
+    "photos": [
+      "f1010013"
+    ],
+    "type": "h",
+    "caption": null,
+    "location": "New York, USA",
+    "date": "2017-05-12"
+  },
+  {
     "title": "The Joker",
     "photos": [
       "2017-01-10017121-F1000016"
